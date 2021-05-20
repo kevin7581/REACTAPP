@@ -1,0 +1,78 @@
+h1{
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select{
+  width: 25%;
+  height: 40px;
+}
+.record-found{
+  border: 1px solid grey;
+    margin-top: 0px;
+    padding: 10px;
+    text-align: center;
+    background: lightgoldenrodyellow;
+}
+
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.select-box{
+  display: flex;
+}
+#customers tbody{
+  height: 500px;
+  overflow-y: auto;
+}
+.filter-links{
+  text-align: center;
+  padding-bottom: 10px;
+}
+footer a{
+  padding-right: 20px;
+}
+.sort-link{
+  font-size: 12px;
+}
+.sort-wrapper{
+  float: right;
+}
+.filter-links a{
+  padding-right: 10px;
+ 
+}
+footer{
+  text-align: center;
+}
+h2{
+  font-size: 14px;
+  margin-top: 10px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+}
+#customers td,th, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
